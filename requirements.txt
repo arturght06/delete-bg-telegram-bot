@@ -3,3 +3,4 @@ aiogram
 datetime
 pymongo
 requests
+pillow
