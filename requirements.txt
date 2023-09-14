@@ -1,7 +1,8 @@
 asyncio
-aiogram
+aiogram==2.25.1
 datetime
 pymongo
 requests
 pillow
 numpy
+xlsxwriter
