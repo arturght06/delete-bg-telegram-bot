@@ -3,7 +3,7 @@ from aiogram import Bot, Dispatcher, executor, types
 import asyncio
 import keyboard
 from create_bot import bot, dp
-from api import pricesString, prices
+# from api import pricesString, prices
 from time import sleep
 from handlers.admin import post_in_channel
 
@@ -17,9 +17,10 @@ async def send_admin(dp):
 
     #     await asyncio.sleep(10)
 
-from handlers import settings, admin, spot
+from handlers import settings, admin, spot, faq
 
 settings.register_handlers_settings(dp)
+faq.register_handlers_create(dp)
 
 spot.register_handlers_create(dp)
 admin.register_handlers_create(dp)
