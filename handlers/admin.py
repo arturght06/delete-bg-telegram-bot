@@ -5,7 +5,7 @@ from aiogram.dispatcher.filters import Text
 from aiogram import types, Dispatcher
 from keyboard import greet_key, brcs_key, admin_key
 from config import admin_id, adminPanelPasswords
-from api import count_from_api
+# from api import count_from_api
 from connect import write_key, print_all_keys, get_count, delete_key, check, get_info_db, print_all, write, delete, get_real_count
 import datetime as DT
 from time import sleep

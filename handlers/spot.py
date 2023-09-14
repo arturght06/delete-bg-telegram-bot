@@ -6,7 +6,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram import types, Dispatcher
 from keyboard import greet_key, brcs_key
 from config import admin_id
-from api import count_from_api
+# from api import count_from_api
 from connect import write_key, print_all_keys, get_count, delete_key, check, get_info_db, print_all, write, delete, check
 # from photoeditor import photo_with_currencies
 import base64
